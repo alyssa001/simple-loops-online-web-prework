@@ -42,7 +42,7 @@ def for_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   for counter in range 1..99999999999
     puts phrase
-    break if counter == number_of_times
+    break if counter > number_of_times
   end 
 end
 
