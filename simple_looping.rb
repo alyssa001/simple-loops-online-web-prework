@@ -2,7 +2,7 @@
 
 def loop_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
-   times
+   times = number_of_times
    loop do
      times += 1 
      puts phrase
